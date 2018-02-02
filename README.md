@@ -1,7 +1,12 @@
 # online-info-olympiad
 This is a server/client project which can be used to set up a online informatics olympiad. 
 
-**It supports the following commands:**  
+##Dependencies(shared libs):
+
+1. **libpq++** - c++ connector library for accessing PostgreSQL databases.
+2. **boost** - a collection of many useful libraries. Regex and filesystem modules are used here. 
+
+##It supports the following commands:  
 
 **login**               -command to log in  
 **logout**              -command to log out  
